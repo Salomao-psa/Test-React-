@@ -1,0 +1,23 @@
+.container{
+ position: absolute;
+    padding: 189px;
+    
+}
+
+
+input{
+    background-color: rgb(116, 121, 135);
+    border: none;
+    border-radius: 20px;
+    height: 20px;
+
+ text-align: center;
+ color:red;
+ font-size: 20px;
+}
+
+.status{
+  
+    font-size:25px;
+    padding: 10px;
+}

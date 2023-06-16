@@ -7,6 +7,7 @@ import Param from "../../views/examples/Param"
 import Error404 from "../../views/examples/Error404"
 import Home from "../../views/examples/Home"
 import About from "../../views/examples/About"
+import Dividir from "../../views/examples/Dividir"
 
 
 const Content = props =>(
@@ -17,6 +18,7 @@ const Content = props =>(
 <Route path ="/param/:id"element={<Param/>}/>
 <Route path ="/" exact element={<Home/>}/>
 <Route path ="*" element={<Error404/>}/>
+<Route path ="/dividir" element={<Dividir/>}/>
 
 
  </Routes>
